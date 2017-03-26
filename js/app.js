@@ -1987,8 +1987,8 @@ function updateWeek(data){
 }
 
 function updateAPI(){
-  getUpdate("http://api.openweathermap.org/data/2.5/weather?lat=60.257046&lon=24.980288&appid=b20c1615c5aed86d33275ca3ef8e94c4&lang=fi&units=metric",updateCurrent);
-  getUpdate("http://api.openweathermap.org/data/2.5/forecast/daily?lat=60.257046&lon=24.980288&appid=b20c1615c5aed86d33275ca3ef8e94c4&lang=fi&units=metric", updateWeek);
+  getUpdate("https://api.openweathermap.org/data/2.5/weather?lat=60.257046&lon=24.980288&appid=b20c1615c5aed86d33275ca3ef8e94c4&lang=fi&units=metric",updateCurrent);
+  getUpdate("https://api.openweathermap.org/data/2.5/forecast/daily?lat=60.257046&lon=24.980288&appid=b20c1615c5aed86d33275ca3ef8e94c4&lang=fi&units=metric", updateWeek);
   updateNames(new Date());
 }
 
